@@ -1,0 +1,14 @@
+{
+  "manver" : "1",
+  "project" : "libmathex",
+  "description" : "Small collection of math functions.",
+  "version" : "0.0.1",
+  "license" : "Apache 2.0",
+  "author" : "G.A. vd. Hoorn",
+  "source" : [
+    "src/libmathex.kl"
+  ],
+  "includes" : [
+    "include"
+  ]
+}
