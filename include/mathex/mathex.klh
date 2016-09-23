@@ -13,6 +13,9 @@
 -- See the License for the specific language governing permissions and
 -- limitations under the License.
 
+%IFNDEF MATHEX_MATHEX_KLH__
+%DEFINE MATHEX_MATHEX_KLH__
+
 
 --------------------------------------------------------------------------------
 --
@@ -55,3 +58,6 @@ ROUTINE signi(val : INTEGER) : INTEGER FROM libmathex
 --
 --------------------------------------------------------------------------------
 ROUTINE signr(val : REAL) : REAL FROM libmathex
+
+
+%ENDIF -- MATHEX_MATHEX_KLH__
